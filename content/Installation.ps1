@@ -1,0 +1,1 @@
+Install-Module -Name AWSPowerShell.NetCore -AllowClobber

@@ -1,0 +1,55 @@
+Title: 0-60 with PowerShell on AWS
+
+Abstract: New to AWS? Do you want to know where you can use your PowerShell expertise when working with the cloud? Come along to this session to see where and how you can leverage your PowerShell skills on AWS. We will cover getting started with the AWS PowerShell modules, demo the use of PowerShell with AWS Systems Manager allowing you to manage cloud resources at scale, secrets and runtime configuration management with Secrets Manager and Parameter Store, and using PowerShell on serverless technologies with AWS Lambda.
+
+
+Outline
+
+- history of modules  (15mins)
+
+    - demos
+        - finding your way around
+        - credentials
+
+        - some useful things to do or build?
+            - upload to a bucket
+            - find my instances
+        - infrastructure build demo
+
+
+- systems manager (10mins)
+
+    - what is systems manager?
+    - where is powershell exposed in systems manager?
+        - run command
+        - session manager
+
+    - demos
+
+        - session manager onto instance in vpc
+        - run command
+        - dsc (creds + token replacements that don't exist in native dsc)
+            - include secrets manager
+
+- parameter store (5mins)
+
+    - what is it, how does it differ from secrets manager?
+    - simple command line usage demos
+	
+- DSC and Systems Manager
+
+- powershell lambda (10mins+)
+
+    - what is serverless?
+    - what do you need to know?
+
+    - demo: simple hello world
+
+    - demo: web sockets app
+
+- wrap
+    - ptr to Thursday session
+
+
+
+
